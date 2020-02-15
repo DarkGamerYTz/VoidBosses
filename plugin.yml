@@ -1,0 +1,17 @@
+name: VoidBosses
+main: dark\Main
+description: "A very customizable Boss plugin"
+version: 1.0.0
+api:
+- 3.0.0
+load: POSTWORLD
+author: DarkGamerYT
+commands:
+  boss:
+    description: Manage Bosses
+    usage: "/boss <create/delete>"
+    permission: boss.command
+permissions:
+  minibosses.command:
+    description: "Allows usage of the /boss command"
+    default: op
